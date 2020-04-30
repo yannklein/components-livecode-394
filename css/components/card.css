@@ -49,6 +49,7 @@
   width: 100px;
   flex-grow: 1;
   margin-right: 16px;
+  object-fit: cover;
 }
 
 .card-product-footer img:last-child {
