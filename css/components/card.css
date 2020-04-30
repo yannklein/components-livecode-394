@@ -1,0 +1,54 @@
+.card-product {
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  border-radius: 5px;
+  padding: 16px;
+}
+
+.card-product-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+}
+
+.card-product-img {
+  height: 100%;
+  width: 50%;
+  background-size: cover;
+}
+
+.card-product-img i {
+  color: pink;
+  padding: 16px;
+}
+
+.card-product-info{
+  
+}
+
+.card-product-middle {
+  margin: 16px 0;
+}
+
+.card-product-middle img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-product-footer {
+  height: 200px;
+  display: flex;
+}
+
+.card-product-footer img {
+  width: 100px;
+  flex-grow: 1;
+  margin-right: 16px;
+}
+
+.card-product-footer img:last-child {
+  flex-grow: 2;
+  margin-right: 0px;
+}
