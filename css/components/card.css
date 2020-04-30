@@ -16,6 +16,7 @@
   height: 100%;
   width: 50%;
   background-size: cover;
+  background-position: 50% 50%;
 }
 
 .card-product-img i {
@@ -24,7 +25,8 @@
 }
 
 .card-product-info{
-  
+  flex-grow: 1;
+  margin-left: 16px;
 }
 
 .card-product-middle {
@@ -35,6 +37,7 @@
   height: 200px;
   width: 100%;
   object-fit: cover;
+  object-position: 50% 20%;
 }
 
 .card-product-footer {
